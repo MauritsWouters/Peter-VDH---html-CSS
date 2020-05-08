@@ -1,0 +1,66 @@
+/* algemeen */
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    height:50cm;
+    margin-left: 16.6%;
+    margin-right: 16.6%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+    
+    
+}
+
+/* header */
+header{
+    background-color: #B97EB6;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+/* main */
+.harvesting{
+    background-color:#9E4E9E;
+    border-bottom: 3px solid #FFFFFF;
+
+}
+
+.crushingPressing{
+    background-color: #862D8F;
+    border-bottom: 3px solid #FFFFFF;
+
+}
+
+.fermentation{
+    background-color: #6D2979;
+    border-bottom: 3px solid #FFFFFF;
+
+}
+
+.clarification{
+    background-color: #66256E;
+    border-bottom: 3px solid #FFFFFF;
+
+}
+
+.aging{
+    background-color:#5B205E;
+    border-bottom: 3px solid #FFFFFF;
+    
+}
+
+/* footer */
+
+footer{
+
+    background-color: #4A1A4D;
+}
