@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+    font: icon;}
+ 
+
+.container{
+    
+    width: 750px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;  
+
+}
+
+
+header{
+    background-color: orange;
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+.deserveABreak{
+    background-color: white;
+    color: orange;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+.expandsYourPerspective{
+    background-color: orange;
+    color: white;
+    text-align: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+.letsYouAppreciateLife{
+    background-color: white;
+    color: orange;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+
+
+.discoverYourSelf{
+    background-color: orange;
+    color: orange;
+    text-align: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+
+
+
+.greatWayToRelax{
+    background-color: white;
+    color: orange;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+
+
+
+
+
+.Top10{
+    background-color: orange;
+    color: white;
+
+}
+
+
+footer{
+    background-color: white;
+    color: orange;
+
+}
+
+.block1{
+    position:relative;
+    margin: auto
+}
+
+.block3{
+    position:relative;
+    left:50%;
+}
