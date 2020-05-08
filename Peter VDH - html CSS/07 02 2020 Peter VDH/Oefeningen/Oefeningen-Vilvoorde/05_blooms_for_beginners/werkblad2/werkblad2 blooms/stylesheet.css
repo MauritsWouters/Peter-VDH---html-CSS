@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("./header.png");
+  border-image-repeat: repeat;
+}
+
+.container {
+  width: 70%;
+  margin: Auto;
+  background-color: #6c665f;
+  text-align: center;
+  color: #cdbba4;
+  font-size: 10%;
+}
+
+h1 {
+  color: #f7e0c2;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  color: #f7e0c2;
+  font-size: 65%;
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  color: #f7e0c2;
+  font-size: 25%;
+  font-family: "Playfair Display", serif;
+  font-style: unset;
+}
+
+@font-face {
+  font-family: ornament;
+  src: url(../fonts/Nymphette.ttf);
+}
