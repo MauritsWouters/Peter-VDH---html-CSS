@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6c665f;
+}
+
+.container {
+  /*margin-left: 5em;
+  margin-right: 5em; */
+
+  position: fixed;
+  margin-left: 5em;
+  margin-right: 5em;
+
+  text-align: center;
+}
+
+/*
+header {
+}
+*/
+
+main {
+  color: #cdbba4;
+}
+
+#h1 {
+  color: #f7e0c2;
+}
+
+#h2 {
+  color: #f7e0c2;
+}
+
+#p {
+  color: yellow;
+}
+/*
+footer {
+}
+*/
