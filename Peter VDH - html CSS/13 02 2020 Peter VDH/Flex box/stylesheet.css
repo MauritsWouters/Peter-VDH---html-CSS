@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: honeydew;
+}
+
+.wrapper {
+  border: 1p solid red;
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  margin-top: 5vh;
+  display: flex;
+}
+
+main {
+  background-color: pink;
+  flex-grow: 2;
+  order: 0;
+}
+
+aside {
+  background-color: green;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    
+  }
+}

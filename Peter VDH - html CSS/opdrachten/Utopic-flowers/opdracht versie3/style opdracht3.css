@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  border: 1px solid red;
+  background-color: #d0d0d0;
+}
+
+.margin {
+  margin-left: 4rem;
+  margin-right: 4rem;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.classHeader {
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.two-column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(100% / 2);
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.two-columnClass3 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(100% / 2);
+  border: 1px solid red;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.three-column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(100% / 3);
+  border: 1px solid red;
+}
+.four-column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(100% / 4);
+  border: 1px solid red;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+.class1 {
+  text-align: center;
+  font-style: italic;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ebebeb;
+  color: #333333;
+}
+
+.class2 {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.class3 {
+  background-color: white;
+  height: 33%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.class4 {
+  background-color: #ebebeb;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.class411 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #333333;
+  margin: 0.25rem;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.class412 {
+  margin: 0.25rem;
+  text-align: center;
+}
+.class5 {
+  background-color: white;
+}
+
+.class41 {
+  background-color: white;
+}
+
+.classFooter {
+  background-color: #444444;
+  color: white;
+}

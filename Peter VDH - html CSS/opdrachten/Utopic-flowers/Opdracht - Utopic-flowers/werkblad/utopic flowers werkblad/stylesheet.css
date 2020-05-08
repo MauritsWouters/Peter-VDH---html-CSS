@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  /*position: fixed;*/
+  width: 80%;
+  border: 1px solid black;
+  margin: 0px auto;
+}
+
+.classHeader {
+  border: 1px solid black;
+  height: 15%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.class1 {
+  border: 1px solid black;
+  height: 7%;
+  text-align: center;
+  font-style: italic;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+.class2 {
+  border: 1px solid black;
+  height: 20%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.class21 {
+  border: 1px solid black;
+}
+.class3 {
+  border: 1px solid black;
+  height: 14%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.class31 {
+  border: 1px solid black;
+  width: 35%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.class4 {
+  border: 1px solid black;
+  height: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  display: flex;
+  flex-direction: row;
+}
+.class41 {
+  border: 1px solid black;
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.class5 {
+  border: 1px solid black;
+  height: 14%;
+  padding-left: 3%;
+  padding-right: 3%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.class51 {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.class52 {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.class53 {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.class54 {
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.classFooter {
+  border: 1px solid black;
+  height: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+}

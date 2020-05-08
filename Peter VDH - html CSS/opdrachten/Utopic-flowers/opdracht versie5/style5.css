@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: burlywood;
+}
+.fontcolor {
+  color: #999999;
+}
+
+.font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fonsize {
+  font-size: 0.75rem;
+}
+.container {
+  width: 80%;
+}
+.margin {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.backgroundBlack {
+  background-color: #333333;
+}
+
+.backgroundGray {
+  background-color: #ebebeb;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.classH {
+  height: 5%;
+}
+
+.class1 {
+  height: 7%;
+  font-size: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.class2 {
+  object-fit: contain;
+}
+.class21 {
+  position: sticky;
+}
+
+.class3 {
+  height: 15rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.clas311 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.clas312 {
+  text-align: right;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.class4 {
+  height: 25rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.class41 {
+  width: 280px;
+  height: 180px;
+  padding: 0.5rem;
+  padding-bottom: 10rem;
+  background-color: white;
+  margin: 1rem;
+}
+.class411 {
+  text-align: center;
+  color: white;
+}
+.class412 {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.class5 {
+  height: 15%;
+  display: flex;
+  flex-flow: wrap;
+  flex-basis: calc(100% / 4);
+  justify-content: space-between;
+}
+.classF {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.class2 > img {
+  object-fit: contain;
+
+  width: 100%;
+  height: auto;
+}
+
+.class411 > img {
+  object-fit: contain;
+
+  width: 100%;
+  height: auto;
+}

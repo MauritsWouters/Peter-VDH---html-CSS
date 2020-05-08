@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 500px);
+  background-color: coral;
+}
+header {
+  background-color: aqua;
+  padding: 2rem;
+}
+main {
+  background-color: beige;
+  padding: 2rem;
+}
+aside {
+  background-color: blue;
+  padding: 2rem;
+  grid-column: 2/3;
+}
+footer {
+  background-color: chartreuse;
+  padding: 2rem;
+  grid-column: 2/3;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: greenyellow;
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  gap: 1vw;
+  padding: 3rem;
+  grid-template-rows: 1fr 500px 1fr;
+}
+header,
+main,
+aside,
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  background-color: green;
+  grid-column: 2/3;
+}
+main {
+  background-color: gainsboro;
+}
+aside {
+  background-color: gray;
+}
+footer {
+  background-color: hotpink;
+}

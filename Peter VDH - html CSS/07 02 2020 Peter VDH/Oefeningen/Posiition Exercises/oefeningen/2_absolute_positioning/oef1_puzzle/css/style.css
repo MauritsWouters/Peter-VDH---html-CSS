@@ -1,0 +1,23 @@
+img#img1 {
+    
+    position: absolute;
+    top: 200px;
+}
+
+
+img#img2 {
+   
+    position: absolute;
+}
+
+img#img3 {
+   
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    }
+
+img#img4 {
+    
+    position: absolute;
+}

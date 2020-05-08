@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid red;
+}
+
+.classHeader {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.classHeader1 {
+  border: 1px solid red;
+}
+.classHeader2 {
+  border: 1px solid red;
+}
+
+.class1 {
+  border: 1px solid red;
+  text-align: center;
+  font-style: italic;
+}
+
+.class2 {
+  border: 1px solid red;
+}
+
+.class3 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.class31 {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+}
+
+.class311 {
+  border: 1px solid red;
+  height: 48px;
+  width: 48px;
+  flex-wrap: wrap;
+}
+.class312 {
+  border: 1px solid red;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+.class313 {
+  border: 1px solid red;
+}
+.class32 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.class321 {
+}
+.class322 {
+}
+
+.class323 {
+}
+.class33 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.class331 {
+}
+.class332 {
+}
+
+.class333 {
+}
+.class4 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.class41 {
+  border: 1px solid red;
+}
+.class42 {
+  border: 1px solid red;
+}
+.class43 {
+  border: 1px solid red;
+}
+.class5 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.class51 {
+  border: 1px solid red;
+}
+.class52 {
+  border: 1px solid red;
+}
+.class53 {
+  border: 1px solid red;
+}
+.class54 {
+  border: 1px solid red;
+}
+.classFooter {
+  border: 1px solid red;
+}

@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*hoofdsturctuur*/
+.container {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 100%;
+}
+
+header {
+  background-color: #becee8;
+  text-align: center;
+  height: 17vh;
+  width: auto;
+  padding-top: 2rem;
+}
+
+main {
+  background-color: #ffffff;
+  height: 80vh;
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/*workexperience*/
+
+.workexperience {
+  display: flex;
+  flex-direction: row;
+}
+
+.workeexperienceParagraafTitel {
+  flex: 33%;
+  margin-right: 0.5rem;
+  border-top: #becee8 solid 4px; /*voorde bvorders gebruik ik doorgaans 2 rem, maar omdat workexperience de boveste paragraaf is, moet ik 4 rem gebruiken*/
+  border-bottom: #becee8 solid 2px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.workexperienceParagraafTekst {
+  flex: 66%;
+  margin-left: 0.5rem;
+  border-top: #becee8 solid 4px;
+  border-bottom: #becee8 solid 2px;
+  padding-bottom: 2rem; /*Ik heb padding-bottom toegevoegd aan de alghele container van de paragraaf, en de padding-top aan de items, omdat je waarschijnlijk later meer items zult toevoegen waardoor die in verhouding moieten staan met de al bestaande items. */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.workexperienceParagraafTekstItem1 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.workexperienceParagraafTekstItem1Data {
+  flex: 1rem;
+}
+.workexperienceParagraafTekstItem1Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+.workexperienceParagraafTekstItem2 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.workexperienceParagraafTekstItem2Data {
+  flex: 1rem;
+}
+
+.workexperienceParagraafTekstItem2Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+.workexperienceParagraafTekstItem3 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.workexperienceParagraafTekstItem3Data {
+  flex: 1rem;
+}
+.workexperienceParagraafTekstItem3Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+
+/*education*/
+
+.education {
+  display: flex;
+  flex-direction: row;
+}
+
+.educationParagraafTitel {
+  flex: 33%;
+  margin-right: 0.5rem;
+  border-top: #becee8 solid 2px;
+  border-bottom: #becee8 solid 4px; /*Normaal gezien neem ik altijd 2 rem vopor de border, maar omdat paragraaf skills een andere opzet heeft, neem ik 4rem*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.educationParagraafTekst {
+  flex: 66%;
+  margin-left: 0.5rem;
+  border-top: #becee8 solid 2px;
+  border-bottom: #becee8 solid 4px; /*Normaal gezien neem ik altijd 2 rem vopor de border, maar omdat paragraaf skills een andere opzet heeft, neem ik 4rem*/
+
+  padding-bottom: 2rem; /*Ik heb padding-bottom toegevoegd aan de alghele container van de paragraaf, en de padding-top aan de items, omdat je waarschijnlijk later meer items zult toevoegen waardoor die in verhouding moieten staan met de al bestaande items. */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.educationParagraafTekstItem1 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.educationParagraafTekstItem1Data {
+  flex: 1rem;
+}
+.educationParagraafTekstItem1Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+.educationParagraafTekstItem2 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.educationParagraafTekstItem2Data {
+  flex: 1rem;
+}
+
+.educationParagraafTekstItem2Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+.educationParagraafTekstItem3 {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.educationParagraafTekstItem3Data {
+  flex: 1rem;
+}
+.educationParagraafTekstItem3Info {
+  flex: 15rem;
+  margin-left: 2rem;
+}
+
+/*skills*/
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+}
+
+.skillsParagraafTitel {
+  flex: 33%;
+  margin-right: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.skillsParagraafTekst {
+  flex: 66%;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsParagraafTekstL {
+  flex: 50%;
+  margin-left: 0.5rem;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  height: 25vh;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ul.skillsParagraafTekstL {
+  list-style-type: circle;
+  height: 25vh;
+}
+
+.skillsParagraafTekstR {
+  flex: 50%;
+  margin-left: 0.5rem;
+
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  height: 25vh;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ul.skillsParagraafTekstR {
+  list-style-type: circle;
+  height: 25vh;
+}
+
+/*footer*/
+
+.kleurbalk {
+  background-color: #becee8;
+  border-left: 2rem #becee8;
+  border-right: 2rem #becee8;
+}
+
+/*fonts & h1-2-3*/
+.fonts {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-bottom: 0.75rem;
+}
+h2 {
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: bold;
+}
+
+/*mediaqueries*/

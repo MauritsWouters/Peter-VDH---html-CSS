@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d0d0;
+}
+
+.container {
+  border-top: red solid 1px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+header {
+  height: 10%;
+  background-color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+
+.knoppen {
+  /*position: relative;
+  left: 25rem;
+  top: -3rem;*/
+  float: right;
+}
+
+#email {
+  background-color: #ebebeb;
+}
+#name {
+  background-color: #ebebeb;
+}
+#zoeken {
+  background-color: #ebebeb;
+
+  position: absolute;
+  top: 1px;
+  right: 12.5%;
+  width: 25%;
+}
+
+.quote {
+  height: 8%;
+  background-color: #ebebeb;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  font: times;
+  font-style: italic;
+  font-size: 0.7rem;
+  color: #333333;
+}
+
+.foto {
+  height: 24%;
+}
+
+.foto > img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kalender {
+  height: 20%;
+  display: flex;
+  background-color: white;
+}
+.kalender1 {
+  justify-content: space-between;
+  margin: 1rem;
+  display: flex;
+}
+.kalender1foto > img {
+  margin-top: 0.5rem;
+  height: 48px;
+  width: 48px;
+  flex-direction: row;
+}
+.kalender1tekst {
+  color: #4a4a4a;
+  font-size: 0.75rem;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #8a49a5;
+}
+
+.items {
+  background-color: #ebebeb;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.items1 {
+  justify-content: space-around;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.items1tekst {
+  color: #4a4a4a;
+  font-size: 0.75rem;
+  flex-direction: row;
+
+  text-align: center;
+}
+
+.contact {
+  background-color: white;
+  color: #4a4a4a;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.contact1 {
+  width: 20%;
+}
+.contact2 {
+  width: 20%;
+}
+.contact3 {
+  width: 20%;
+}
+.contact4 {
+  width: 20%;
+}
+
+footer {
+  background-color: #444444;
+  color: white;
+  display: flex;
+  font-size: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  justify-content: space-between;
+}
+.copyright {
+  padding-left: 1rem;
+}
+.template {
+  padding-right: 1rem;
+}
