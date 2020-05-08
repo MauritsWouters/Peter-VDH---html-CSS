@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 3rem;
+  width: 70%;
+  margin: auto;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.bc-image {
+  background-image: url("./img/background.jpg");
+
+  filter: grayscale(100%);
+  opacity: 25%;
+}
+
+section {
+  margin: 2vh;
+  border: 1px solid red;
+  padding: 3rem;
+  background-color: white;
+}
+
+h3 {
+  color: #886c06;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
